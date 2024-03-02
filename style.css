@@ -11,6 +11,8 @@ body{
     margin: 0 auto; 
 }
 
+/*  navigation  */
+
 nav{
     background-color: #233e50;
     display: flex;
@@ -18,10 +20,27 @@ nav{
     padding: 1rem 3rem;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 ul{
     display: flex;
     flex-direction: row;
+    list-style: none;
+    gap: 5rem;
+    font-size: 20px;
+    color: #fff;
+    align-items: center;
 }
 
+.button{
+  border: none;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius:20px;
+  background-color: #65e4a3;
+}
+
+a{
+    text-decoration: none;
+}
