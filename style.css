@@ -18,7 +18,7 @@ nav{
     display: flex;
     flex-direction: row;
     padding: 1rem 3rem;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     
 }
@@ -30,7 +30,7 @@ ul{
     gap: 5rem;
     font-size: 20px;
     color: #fff;
-    align-items: center;
+    align-items:center;
 }
 
 .button{
@@ -43,4 +43,38 @@ ul{
 
 a{
     text-decoration: none;
+}
+
+/* about */
+.about{
+    background-color: #0a2648;
+    color: #fff;
+    height: 600px;
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+h1{
+    font-size:3rem;
+}
+p{
+    opacity: 0.5;
+}
+
+
+/* hero images  */
+
+.grid-items{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 2rem;
+}
+
+.grid-items > :nth-child(2){
+    grid-row: span 2;
 }
