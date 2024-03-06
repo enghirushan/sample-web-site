@@ -71,10 +71,55 @@ p{
 .grid-items{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px;
-    gap: 2rem;
+    grid-template-rows:300px 300px;
+    gap: 2rem ; /*both rawsand colums 2rem*/
+    position: absolute;
+    top: 550px;
+    width: 50%;
+    justify-content: center;
+     
+
 }
+
 
 .grid-items > :nth-child(2){
     grid-row: span 2;
 }
+
+.hero_images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* our-story */
+
+.our-story{
+    margin-top: 600px;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.buttons{
+ display: flex;
+ flex-direction: row;
+ gap: 3rem;
+}
+
+button{
+   padding: 15px 50px ; 
+   border-radius: 100px;
+   border: none;
+   background-color:#65e4a3 ;
+   font-size: 20px;
+}
+
+.button-new{
+   background-color: #fff; 
+   border: 4px double black;
+}
+
