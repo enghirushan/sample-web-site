@@ -151,5 +151,20 @@ button{
     color: #65e4a3;
 }
 
+.teams{
+    padding: 0 5rem ;
+    display: flex;
+    flex-direction:column ;
+    
+
+}
+
+.image-data{
+
+}
+
+.image-section{
+   
+}
 
 
